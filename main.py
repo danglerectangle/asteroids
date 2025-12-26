@@ -22,7 +22,7 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
-        screen.fill((0,0,0))
+        screen.fill("black")
         dt = clock.tick(60) / 1000
         clock.tick(60)
         player.draw(screen)
